@@ -1,5 +1,5 @@
 # ConsTarget
-ConsTarget is an R package to calculate conservation target achievement of reserve networks
+ConsTarget is an R package to calculate conservation target achievement of nature reserve networks.
 
 If you used this package in your paper, please cite it.
 
