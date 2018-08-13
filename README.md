@@ -1,6 +1,3 @@
----
-output: html_document
----
 # ConsTarget
 _ConsTarget_ is an R package to calculate conservation target achievement of nature reserve networks.
 
