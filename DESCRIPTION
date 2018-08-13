@@ -1,0 +1,19 @@
+Package: ConsTarget
+Type: Package
+Title: Calculate Conservation Target Achievement
+Version: 0.1.0
+Date: 2018-08-13
+Author: Kerstin Jantke [aut, cre],
+  Caitie Kuempel [aut, ctb],
+  Jennifer McGowan [aut, ctb],
+  Alienor Chauvenet [aut, ctb],
+  Hugh Possingham [aut, ctb]
+Maintainer: Kerstin Jantke <kerstin.jantke@uni-hamburg.de>
+Depends: R (>= 3.1.0)
+Imports: ggplot2
+Description: This package is used to calculate two different
+	metrics of conservation target achievement. It is associated with publication xxx
+License: GPL-2 | GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
