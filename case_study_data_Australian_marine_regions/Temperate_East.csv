@@ -1,12 +1,12 @@
-REGION;feature;ai;pi
-Temperate East;Batemans Shelf;4272.892025;75.97420212
-Temperate East;Hawkesbury Shelf;7462.562206;0
-Temperate East;Manning Shelf;7001.94708;1307.110375
-Temperate East;Tweed-Moreton;26334.68242;155.5188512
-Temperate East;Central Eastern Province;233816.1751;16263.3896
-Temperate East;Central Eastern Transition;20414.49118;0.000596112
-Temperate East;Kenn Transition;86599.14461;0.00907907
-Temperate East;Lord Howe Province;484881.754;99332.46341
-Temperate East;Norfolk Island Province;430793.2891;188443.4081
-Temperate East;Southeast Transition;8799.35652;0
-Temperate East;Tasman Basin Province;156415.4708;77760.85229
+REGION,feature,ai,pi
+Temperate East,Batemans Shelf,4272.892025,75.97420212
+Temperate East,Hawkesbury Shelf,7462.562206,0
+Temperate East,Manning Shelf,7001.94708,1307.110375
+Temperate East,Tweed-Moreton,26334.68242,155.5188512
+Temperate East,Central Eastern Province,233816.1751,16263.3896
+Temperate East,Central Eastern Transition,20414.49118,0.000596112
+Temperate East,Kenn Transition,86599.14461,0.00907907
+Temperate East,Lord Howe Province,484881.754,99332.46341
+Temperate East,Norfolk Island Province,430793.2891,188443.4081
+Temperate East,Southeast Transition,8799.35652,0
+Temperate East,Tasman Basin Province,156415.4708,77760.85229

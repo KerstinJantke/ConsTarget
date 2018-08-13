@@ -1,7 +1,7 @@
-REGION;feature;ai;pi
-Coral Sea;Cape Province;62520.37344;62520.17335
-Coral Sea;Central Eastern Transition;24424.34761;24424.31358
-Coral Sea;Kenn Province;57419.07743;57418.85986
-Coral Sea;Kenn Transition;290532.4807;290526.9419
-Coral Sea;Northeast Province;422459.8554;422459.6831
-Coral Sea;Northeast Transition;132486.1472;132486.0081
+REGION,feature,ai,pi
+Coral Sea,Cape Province,62520.37344,62520.17335
+Coral Sea,Central Eastern Transition,24424.34761,24424.31358
+Coral Sea,Kenn Province,57419.07743,57418.85986
+Coral Sea,Kenn Transition,290532.4807,290526.9419
+Coral Sea,Northeast Province,422459.8554,422459.6831
+Coral Sea,Northeast Transition,132486.1472,132486.0081

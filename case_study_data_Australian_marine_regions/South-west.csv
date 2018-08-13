@@ -1,11 +1,11 @@
-REGION;feature;ai;pi
-South-west;Abrolhos Islands;4137.038193;1961.911256
-South-west;Central West Coast;22356.24817;5300.657925
-South-west;Eucla;105356.0588;28229.68028
-South-west;Eyre;52026.31113;23740.42884
-South-west;Leeuwin-Naturaliste;23063.19459;7069.732775
-South-west;Murat;30377.77332;6178.098306
-South-west;WA South Coast;34397.70461;12365.86703
-South-west;Central Western Province;268459.7556;60645.69622
-South-west;Southern Province;650785.7115;269598.6821
-South-west;Southwest Transition;101054.8948;49682.25205
+REGION,feature,ai,pi
+South-west,Abrolhos Islands,4137.038193,1961.911256
+South-west,Central West Coast,22356.24817,5300.657925
+South-west,Eucla,105356.0588,28229.68028
+South-west,Eyre,52026.31113,23740.42884
+South-west,Leeuwin-Naturaliste,23063.19459,7069.732775
+South-west,Murat,30377.77332,6178.098306
+South-west,WA South Coast,34397.70461,12365.86703
+South-west,Central Western Province,268459.7556,60645.69622
+South-west,Southern Province,650785.7115,269598.6821
+South-west,Southwest Transition,101054.8948,49682.25205
