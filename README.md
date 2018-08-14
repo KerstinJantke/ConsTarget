@@ -1,5 +1,5 @@
 # ConsTarget
-_ConsTarget_ is an R package to calculate conservation target achievement of nature reserve networks.
+_ConsTarget_ is an R package to calculate representation target achievement of conservation features in protected area estates.
 
 
 ## Installation
@@ -16,12 +16,12 @@ devtools::install_github("KerstinJantke/ConsTarget")
 
 Please using the following citation to cite the _ConsTarget R_ package in publications:
 
-Jantke, K., Kuempel, C.D., McGowan, J., Chauvenet, A.L.M., Possingham, H.P., 2018. ConsTarget: Calculate Conservation Target Achievement. R package version 0.1. Available at: https://github.com/KerstinJantke/ConsTarget
+Jantke, K., Kuempel, C.D., McGowan, J., Chauvenet, A.L.M., Possingham, H.P., 2018. ConsTarget: Calculate Representation Target Achievement In Conservation Areas. R package version 0.1. Available at: https://github.com/KerstinJantke/ConsTarget
 
 
 ## Usage
 
-Here we will provide a short example showing how the _ConsTarget R_ package can be used to calculate conservation target achievement. First, we will load the _ConsTarget R_ package.
+Here we will provide a short example showing how the _ConsTarget R_ package can be used to calculate representation target achievement. First, we will load the _ConsTarget R_ package.
 
 ```{r}
 # load package
@@ -38,23 +38,23 @@ pi        <- c(0,53,282,237,70,5,123,606,2695,496)  #protected amount of conserv
 data      <- data.frame(feature,ai,pi)  
 ```
 
-Third, we will run the functions. The R package _ConsTarget_ comes with the two functions `mpg` and `mta`, which determine the degree of conservation target shortfall or achievement as values between 0 and 1. The function `mpg` calculates the Mean Protection Gap of conservation features in protected area networks (0 is no gap and 1 is 100% gap to a conservation target). The function `mta` calculates the Mean Target Achievement of conservation features in protected area networks (0 is no achievement and 1 is 100% achievement of a conservation target). Mean Protection Gap (MPG) and Mean Target Achievement (MTA) are complementary such that MPG + MTA = 1. 
+Third, we will run the functions. The R package _ConsTarget_ comes with the two functions `mpg` and `mta`, which determine the degree of representation target shortfall or achievement as values between 0 and 1. The function `mpg` calculates the Mean Protection Gap of conservation features in protected area networks (0 is no gap and 1 is 100% gap to a conservation target). The function `mta` calculates the Mean Target Achievement of conservation features in protected area networks (0 is no achievement and 1 is 100% achievement of a representation target). Mean Protection Gap (MPG) and Mean Target Achievement (MTA) are complementary such that MPG + MTA = 1. 
 
-The functions take three arguments: the `data`, the conservation `target` as a value between 0 and 1 (0 is 0% protection and 1 is 100% protection), and a `TRUE/FALSE` statement determining whether an automatic plot should be generated. 
+The functions take three arguments: the `data`, the representation `target` as a value between 0 and 1 (0 is 0% protection and 1 is 100% protection), and a `TRUE/FALSE` statement determining whether an automatic plot should be generated. 
 
 ```{r}
-# Run the mpg function for conservation target 0.3 (30% protection of each feature)		          
+# Run the mpg function for representation target 0.3 (30% protection of each feature)		          
 mpg(data,0.3,plot=TRUE)
 ```
 
 ```{r}
-# Run the mta function for conservation target 0.5 (50% protection of each feature)
+# Run the mta function for representation target 0.5 (50% protection of each feature)
 mta(data,0.5,plot=FALSE)
 ```
 
-The functions `mpg` and `mta` output four arguments and a plot: `MPG` or `MTA` is the mean protection gap or mean target achievement as a value between 0 and 1; `target` is the conservation target set; `N` is the number of conservation features; `proportion_protected` is the protected proportion of each conservation feature as values from 0 to 1, sorted from low to high. The plot shows for both metrics the protected proportion of conservation features as well as the conservation target (dashed line). 
+The functions `mpg` and `mta` output four arguments and a plot: `MPG` or `MTA` is the mean protection gap or mean target achievement as a value between 0 and 1; `target` is the representation target set; `N` is the number of conservation features; `proportion_protected` is the protected proportion of each conservation feature as values from 0 to 1, sorted from low to high. The plot shows for both metrics the protected proportion of conservation features as well as the representation target (dashed line). 
 
-__Example output for calculating Mean Protection Gap for a 30% conservation target:__
+__Example output for calculating Mean Protection Gap for a 30% representation target:__
 
 ```{r}
 > mpg(data,0.3,plot=TRUE)
@@ -84,10 +84,10 @@ $proportion_protected
 <img src="man/figures/README-plot.png" width="666" style="display: block; margin: auto;" />
 
 
-In our example, protection of the 10 ecoregion ranges from 0 to 49%. At the 30% conservation target level, Mean Protection Gap across these ecoregions is 25% .   
+In our example, protection of the 10 ecoregion ranges from 0 to 49%. At the 30% target level, Mean Protection Gap across these ecoregions is 25% .   
 
 
-__Example output for calculating Mean Target Achievement for a 50% conservation target:__
+__Example output for calculating Mean Target Achievement for a 50% representation target:__
 
 ```{r}
 > mta(data,0.5,plot=FALSE)
@@ -113,7 +113,7 @@ $proportion_protected
 9           Ecoregion 4       0.45576923
 10         Ecoregion 10     0.49108911
 ```
-In our example, protection of the 10 ecoregion ranges from 0 to 49%. At the 50% conservation target level, Mean Target Achievement across these ecoregions is 55% 
+In our example, protection of the 10 ecoregion ranges from 0 to 49%. At the 50% target level, Mean Target Achievement across these ecoregions is 55%. 
 
 ## Example data
 
