@@ -38,7 +38,7 @@ pi        <- c(0,53,282,237,70,5,123,606,2695,496)  #protected amount of conserv
 data      <- data.frame(feature,ai,pi)  
 ```
 
-Third, we will run the functions. The R package _ConsTarget_ comes with the two functions `mpg` and `mta`, which determine the degree of representation target shortfall or achievement as values between 0 and 1. The function `mpg` calculates the Mean Protection Gap of conservation features in protected area networks (0 is no gap and 1 is 100% gap to a conservation target). The function `mta` calculates the Mean Target Achievement of conservation features in protected area networks (0 is no achievement and 1 is 100% achievement of a representation target). Mean Protection Gap (MPG) and Mean Target Achievement (MTA) are complementary such that MPG + MTA = 1. 
+Third, we will run the functions. The R package _ConsTarget_ comes with the two functions `mpg` and `mta`, which determine the degree of representation target shortfall or achievement as values between 0 and 1. The function `mpg` calculates the Mean Protection Gap of conservation features in protected area networks (0 is no gap and 1 is 100% gap to a representation target). The function `mta` calculates the Mean Target Achievement of conservation features in protected area networks (0 is no achievement and 1 is 100% achievement of a representation target). Mean Protection Gap (MPG) and Mean Target Achievement (MTA) are complementary such that MPG + MTA = 1. 
 
 The functions take three arguments: the `data`, the representation `target` as a value between 0 and 1 (0 is 0% protection and 1 is 100% protection), and a `TRUE/FALSE` statement determining whether an automatic plot should be generated. 
 
