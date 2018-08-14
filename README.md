@@ -84,7 +84,7 @@ $proportion_protected
 <img src="man/figures/README-plot.png" width="666" style="display: block; margin: auto;" />
 
 
-In our example, the Mean Protection Gap across 10 ecoregions is 25% at the 30% conservation target level.   
+In our example, protection of the 10 ecoregion ranges from 0 to 49%. At the 30% conservation target level, Mean Protection Gap across these ecoregions is 25% .   
 
 
 __Example output for calculating Mean Target Achievement for a 50% conservation target:__
@@ -113,5 +113,8 @@ $proportion_protected
 9           Ecoregion 4       0.45576923
 10         Ecoregion 10     0.49108911
 ```
-In our example, the Mean Target Achievement across 10 ecoregions is 55% at the 50% conservation target level.   
+In our example, protection of the 10 ecoregion ranges from 0 to 49%. At the 50% conservation target level, Mean Target Achievement across these ecoregions is 55% 
 
+## Example data
+
+Example input data for 53 marine Australian bioregions are provided [here]( https://github.com/KerstinJantke/ConsTarget/tree/master/case_study_data_Australian_marine_regions).
