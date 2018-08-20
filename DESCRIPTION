@@ -1,8 +1,8 @@
 Package: ConsTarget
 Type: Package
-Title: Calculate Conservation Target Achievement
+Title: Calculate Representation Target Achievement In Conservation Areas
 Version: 0.1.0
-Date: 2018-08-13
+Date: 2018-08-20
 Author: Kerstin Jantke [aut, cre],
   Caitie Kuempel [aut, ctb],
   Jennifer McGowan [aut, ctb],
@@ -12,7 +12,7 @@ Maintainer: Kerstin Jantke <kerstin.jantke@uni-hamburg.de>
 Depends: R (>= 3.1.0)
 Imports: ggplot2
 Description: This package is used to calculate two different
-	metrics of conservation target achievement. It is associated with publication xxx
+	metrics of representation target achievement in reserve networks. It is associated with publication xxx
 License: GPL-2 | GPL-3
 Encoding: UTF-8
 LazyData: true

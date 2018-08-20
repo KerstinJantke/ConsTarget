@@ -9,15 +9,15 @@ mpg(data = list(), target, plot = TRUE)
 \arguments{
 \item{data}{data is a dataframe with three columns: feature, ai, and pi. feature is the name of the conservation features (e.g. ecoregions, habitats, species), ai is the total area/amount of conservation features and pi is the protected area/amount of conservation features.}
 
-\item{target}{target is the conservation target as a value between 0 and 1 (0 is zero protection and 1 is 100\% protection).}
+\item{target}{target is the representation target as a value between 0 and 1 (0 is zero protection and 1 is 100\% protection).}
 
-\item{plot}{plots the conservation target and the protected amount of conservation features ordered from low to high. Defaults to TRUE.}
+\item{plot}{plots the target and the protected amount of conservation features ordered from low to high. Defaults to TRUE.}
 }
 \value{
-\tabular{rlll}{\tab \code{mpg}   \tab Mean Protection Gap value (0 is no gap and 1 is 100\% gap to conservation target) \cr \tab \code{target} \tab conservation target \cr \tab \code{N} \tab number of conservation features \cr \tab \code{proportion_protected}  \tab protected proportion of conservation features as a value from 0 to 1, sorted from low to high}
+\tabular{rlll}{\tab \code{mpg}   \tab Mean Protection Gap value (0 is no gap and 1 is 100\% gap to representation target) \cr \tab \code{target} \tab representation target \cr \tab \code{N} \tab number of conservation features \cr \tab \code{proportion_protected}  \tab protected proportion of conservation features as a value from 0 to 1, sorted from low to high}
 }
 \description{
-The mean protection gap (MPG) function determines the degree of conservation target shortfall as a value between 0 and 1.
+The mean protection gap (MPG) function determines the degree of representation target shortfall as a value between 0 and 1.
 }
 \examples{
 # Generate input data
@@ -26,9 +26,10 @@ ai      <- c(41,223,1053,520,230,303,343,2684,6507,1010)  #total amount of conse
 pi      <- c(0,53,282,237,70,5,123,606,2695,496)  #protected amount of conservation features
 data    <- data.frame(feature,ai,pi)
 
-# Run the mpg function for conservation target 0.3 (30\% protection of each feature)
+# Run the mpg function for representation target 0.3 (30\% protection of each feature)
 mpg(data,0.3,plot=TRUE)
 }
 \keyword{conservation}
 \keyword{protection}
+\keyword{representation}
 \keyword{target}
