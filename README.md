@@ -1,6 +1,7 @@
 # ConsTarget
 _ConsTarget_ is an R package to calculate representation target achievement of conservation features in protected area estates.
 
+It is associated with a scientific publication by <a href="https://doi.org/10.1111/ddi.12853">Jantke et al. (2018)</a>. 
 
 ## Installation
 
